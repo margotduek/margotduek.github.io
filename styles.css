@@ -1,0 +1,97 @@
+@font-face {
+  font-family: DINNextLTPro;
+  src: url(DINNextLTPro-LightCondensed.otf);
+}
+
+
+
+*{
+  font-family: DINNextLTPro;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+article{
+  height:100%;
+  margin:15%;
+}
+
+#image{
+  width: 350px;
+  height:350px;
+  /*margin-top: 50px;*/
+}
+
+#about{
+  margin: 70px;
+}
+
+#about p{
+  margin-top: 25px;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+#contact p{
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+#artistName{
+  background :rgba(0,0,0,.25);
+  position: absolute;
+  z-index:1;
+  bottom:10px;
+  right:10px;
+}
+
+#artistName p{
+    font-size: 5em;
+    color: white;
+    text-align: right;
+}
+
+core-header-panel[mode=cover]::shadow #mainContainer {
+  left: 70px;
+}
+
+.core-header {
+  position: fixed;
+  z-index:2;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  padding: 0 10px;
+  background-color: rgba(0,0,0,0);
+  color: #FFF;
+  transition: height 0.2s;
+}
+
+.core-header.tall {
+  height: 180px;
+}
+
+.core-header.medium-tall {
+  height: 120px;
+}
+
+.menu{
+  position: fixed;
+  right: 40px;
+}
+
+.menu li{
+  font-size: 3em;
+  text-align: right;
+  margin: 15px;
+}
+
+#titulo{
+  text-align: center;
+  font-size: 9em;
+  margin:5%;
+}

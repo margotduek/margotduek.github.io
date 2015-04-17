@@ -1,0 +1,20 @@
+{
+  "name": "luisaKalach",
+  "version": "0.0.0",
+  "homepage": "https://github.com/margotduek/luisaKalach",
+  "authors": [
+    "margotduek <margotduek@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.5"
+  }
+}
